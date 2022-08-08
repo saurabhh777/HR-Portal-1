@@ -1,0 +1,105 @@
+/* .sidebar {
+  display: flex;
+  position: relative;
+  top: 15px;
+  height: 90vh;
+  overflow: scroll initial;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+  margin-right: 0;
+
+  width: 100%;
+  /* top: 15px; */
+  display: flex;
+  /* padding-right: 50px; */
+  /* background-color: blue; */
+}
+
+main {
+  width: 100%;
+  height: auto;
+} 
+
+.sidebar {
+  position: relative;
+  top: 14px;
+  margin-left: -110px;
+  background-color: #d9d9d9;
+  /* color: #fff; */
+  height: 90.4vh;
+  width: 20% !important;
+  transition: all 0.2s;
+}
+
+.top_section {
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+}
+
+.top_section .welcome .logo, .welcome p {
+  position: relative;
+  top: 1%;
+  left: 5px;
+  text-align: left;
+  color: black !important;
+  margin-bottom: 0;
+}
+
+.routes h6{
+  text-align: left;
+  margin-left: 6%;
+}
+
+.bars {
+  display: flex;
+  font-size: 25px;
+  margin-left: 50px;
+}
+
+.link {
+  display: flex;
+  background-color:#d9d9d9;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+
+.link:hover {
+  background-color: #d9d9d9;
+
+  transition: all 0.5s;
+  text-decoration: none;
+}
+
+.active {
+  background: #d9d9d9;
+  
+  text-decoration: none;
+}
+
+.icon, .link_text {
+  font-size: 15px;
+}
+
+.pfp {
+  height: 50px;
+}
+
+.logo {
+  font-size: 15px;
+}
+
+.link_text{
+color: black;  
+}
+

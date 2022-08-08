@@ -1,0 +1,33 @@
+.whole {
+  margin-left: 1%;
+}
+
+.a-main {
+  background-color: rgb(217,217,217) !important;
+  border: none;
+}
+.a-main p{
+  color: black !important;
+}
+
+.checkboxes {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-between;
+  justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.checkboxes .box {
+  width: 100%;
+  text-align: center;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+
+

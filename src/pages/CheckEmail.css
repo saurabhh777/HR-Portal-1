@@ -1,0 +1,50 @@
+form {
+  border-radius: 10%;
+  margin: auto;
+  width: fit-content;
+  position: relative;
+  top: 50%;
+}
+
+.c-form-button {
+  border-radius: 0 !important;
+  color: black !important;
+  border: none !important;
+  background-color: rgb(217, 217, 217) !important;
+  width: 330px;
+  height: 40px;
+}
+
+.c-form-inner p {
+  color: rgb(147, 147, 147);
+  font-size: 12px;
+}
+
+.c-login {
+  
+}
+
+.c-login a {
+  margin: auto;
+  text-decoration: none;
+  color: black;
+}
+
+.c-login a:hover {
+  color: black;
+}
+
+.c-message {
+  text-align: center;
+  font-size: 12px;
+}
+
+.c-message:not(a) {
+  color: rgb(147, 147, 147);
+}
+
+.c-form-inner h2, .c-form-inner p {
+  text-align: center;
+  /* border: 1px solid red; */
+
+}

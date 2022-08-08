@@ -1,0 +1,37 @@
+#logout {
+  text-decoration: none;
+  color: black;
+}
+
+.dashboard {
+  background-color: #d9d9d94a;
+  /* background-color: blue; */
+  height: 103.2vh;
+  /* height: 50rem; */
+  /* height: 100%; */
+  text-align: center;
+}
+
+.top {
+  background-color: white !important;
+}
+
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  position: relative;
+  /* right: 400%; */
+}
+
+.navbar .pfp {
+  position: relative;
+  /* left: 300%; */
+}
+
+.mini {
+  color: black !important;
+}
+

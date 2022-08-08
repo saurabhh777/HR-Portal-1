@@ -1,0 +1,109 @@
+/* .box {
+  background-color: red;
+}
+
+.form-full {
+  position: relative;
+  left: 35%;
+  color: black !important;
+}
+
+.dropdown {
+  position: relative;
+  color: black !important;
+  margin-bottom: 0;
+}
+
+.dropdown, .options {
+  margin-top: 2%;
+}
+
+.options{
+  background-color: rgb(217,217,217);
+  width: 11%;
+  border: none !important;
+  border-color: red;
+  border-radius: 0;
+  color: black;
+  position: relative;
+} */
+
+
+.r-roles {
+  /* background-color: red; */
+  width: 100%;
+}
+
+.r-form {
+  /* background-color: blue; */
+  max-width: fit-content;
+  margin: 0;
+  padding: 35px;
+  position: relative;
+
+  
+}
+
+.r-list {
+  /* background-color: yellow; */
+  background-color: rgb(217,217,217);
+  width: 190px;
+  padding-left: 7px;
+  position: absolute;
+  bottom: 100%;
+  left: 21rem;
+  border: none;
+  padding-top: 3.5px;
+  padding-bottom: 3.5px;
+}
+
+
+.plus-btn {
+  border: none;
+  background-color: none;
+  height: 0;
+  border-radius: 100%;
+  position: relative;
+  bottom: 41px;
+  right: -6%;
+
+}
+
+.hr {
+  width: 101%;
+}
+
+.role-name {
+  /* border: 3px dashed blue; */
+  width: 35%;
+  position: relative;
+  left: 1%;
+}
+
+.role-name #role {
+  padding-top: 3.5px;
+  padding-bottom: 3.5px;
+  width: 190px;
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+.space-between { 
+  justify-content: space-between; 
+}  
+
+input[type=text] {
+  background-color: rgb(217,217,217);
+  border: none;
+  padding-left: 5%;
+}
+
+.AiFillPlusCircle{
+  position: relative;
+  top:1px
+ 
+}
